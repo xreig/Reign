@@ -1,0 +1,13 @@
+INPUT student_name, score
+IF score >= 90 THEN
+    grade = "A"
+ELSE IF score >= 80 THEN
+    grade = "B"
+ELSE IF score >= 70 THEN
+    grade = "C"
+ELSE IF score >= 60 THEN
+    grade = "D"
+ELSE
+    grade = "F"
+END IF
+PRINT student_name, score, grade
